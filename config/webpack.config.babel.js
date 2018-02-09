@@ -6,13 +6,15 @@ import htmlWebpackPlugin from 'html-webpack-plugin'
 import extractTextPlugin from 'extract-text-webpack-plugin'
 
 const BASE_DIR = path.resolve('./');
-const APP_DIR = path.resolve('./', 'src');
-const BUILD_DIR = path.resolve('./', 'build');
+const SRC_DIR = path.resolve(BASE_DIR, 'src');
+const APP_DIR = path.resolve(SRC_DIR, 'app');
+const BUILD_DIR = path.resolve(BASE_DIR, 'build');
 
 console.info("##### Folders #####");
 console.info("  ");
 console.info("Base:", BASE_DIR);
-console.info("Sources:", APP_DIR);
+console.info("Sources:", SRC_DIR);
+console.info("App:", APP_DIR);
 console.info("Output:", BUILD_DIR);
 console.info("  ");
 
@@ -27,7 +29,7 @@ module.exports = {
         app: [
             'babel-polyfill',
             'react-hot-loader/patch',
-            APP_DIR + '/index.tsx'],
+            SRC_DIR + '/index.tsx'],
         vendor: ['react', 'react-dom']
     },
     /*
@@ -47,7 +49,11 @@ module.exports = {
      */
     resolve: {
         extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.scss', '.woff'],
-        modules: [APP_DIR, 'node_modules']
+        modules: [SRC_DIR, 'node_modules'],
+        alias: {
+            app: path.resolve(BASE_DIR, APP_DIR + '/App'),
+            common: path.resolve(BASE_DIR, APP_DIR + '/Common')
+        },
     },
 
     module: {
@@ -78,7 +84,7 @@ module.exports = {
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin(),
         new webpackNotifier({alwaysNotifiy: true}),
-        new htmlWebpackPlugin({template: APP_DIR + '/index.html'}),
+        new htmlWebpackPlugin({template: SRC_DIR + '/index.html'}),
         new extractTextPlugin({filename: '[name].css'})
     ],
 
@@ -90,7 +96,7 @@ module.exports = {
         },
         hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
         inline: true,
-        port: 8082,
+        port: 1337,
         stats: 'minimal',
         watchOptions: {
             ignored: '/node_modules'
