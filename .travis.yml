@@ -1,7 +1,8 @@
 language: node_js
 node_js:
   - "node"
-script: npm test
+  - "lts/*"
+script: yarn test
 notifications:
   email:
     on_failure: always
