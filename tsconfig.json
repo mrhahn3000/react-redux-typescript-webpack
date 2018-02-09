@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "module": "es6",
+    "target": "es6",
+    "outDir": "./build/",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "noEmitOnError": true,
+    "charset": "utf8"
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

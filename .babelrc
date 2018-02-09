@@ -1,0 +1,4 @@
+{
+  "presets": ["env", "react", "stage-0"],
+  "plugins": ["babel-polyfill", "react-hot-loader/babel"]
+}

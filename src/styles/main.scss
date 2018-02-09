@@ -1,0 +1,29 @@
+//
+// Import colors (optional)
+//
+@import '~hocus-pocus/sass/colors';
+
+//
+// Define settings
+//
+@import 'base';
+
+//
+// Import Hocus-Pocus
+//
+@import '~hocus-pocus/hocus-pocus';
+
+//
+// All app specific styles go here
+//
+@import '../app/App/App';
+@import '../app/Header/Header';
+@import '../app/Header/HeaderNav/HeaderNav';
+@import '../app/Page/Page';
+@import '../app/Footer/Footer';
+
+//
+// Common styles go here
+//
+@import '../app/Common/Button/Button';
+@import '../app/Common/Link/Link';

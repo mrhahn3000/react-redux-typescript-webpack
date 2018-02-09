@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+
+# Build folder
+build/
+
+# Logs
+logs
+*.log
+
+# Mac and IDE Stuff
+.DS_Store
+.idea
+
+# npm cache directory
+.npm
+
+# sass cache directory
+.sass-cache
