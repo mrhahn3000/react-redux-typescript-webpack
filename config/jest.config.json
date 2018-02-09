@@ -1,0 +1,15 @@
+{
+  "rootDir": "../",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js"
+  ],
+  "transform": {
+    "\\.(ts|tsx)$": "typescript-babel-jest"
+  },
+  "testPathIgnorePatterns": [
+    "<rootDir>/(build|docs|node_modules)/"
+  ],
+  "testRegex": "(\\/__tests__\\/.*|\\.(test|spec))\\.(ts|tsx|js)$"
+}
