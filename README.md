@@ -80,9 +80,10 @@ See here for our [contribution guide](https://github.com/mrhahn3000/react-redux-
 See here for the [license](https://github.com/mrhahn3000/react-redux-typescript-webpack/blob/master/LICENSE).
   
 ## Roadmap
-### v1.0.0
+### v1.0.1
 
-- [ ] Add CI
+- [X] Add CI
+- [X] Add react router 
 - [ ] Introduce an async redux workflow
 - [ ] Standardize the tslint configuration
 - [ ] Add more reusable modules
