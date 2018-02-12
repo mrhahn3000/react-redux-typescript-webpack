@@ -3,7 +3,8 @@ If you're interested in helping to support and grow this library, please let us 
 # React Redux TypeScript Template
 This should be my personal basic scaffolding template for getting started with a modern react-redux application. However, I definitely want to share my efforts with the community!
 
-[![Build Status](https://travis-ci.org/mrhahn3000/react-redux-typescript-webpack.svg?branch=master)](https://travis-ci.org/mrhahn3000/react-redux-typescript-webpack)
+[![Build Status](https://travis-ci.org/mrhahn3000/react-redux-typescript-webpack.svg?style=flat-square&branch=master)](https://travis-ci.org/mrhahn3000/react-redux-typescript-webpack)
+[![Version](https://img.shields.io/github/package-json/v/badges/shields.svg?style=flat-square)](https://github.com/mrhahn3000/react-redux-typescript-webpack/blob/master/package.json)
 [![Star on Github](https://img.shields.io/github/stars/mrhahn3000/react-redux-typescript-webpack.svg?style=social)](https://github.com/mrhahn3000/react-redux-typescript-webpack/stargazers)
 [![Watch on Github](https://img.shields.io/github/watchers/mrhahn3000/react-redux-typescript-webpack.svg?style=social)](https://github.com/mrhahn3000/react-redux-typescript-webpack/watchers)
 [![Tweet](https://img.shields.io/twitter/url/https/github.com/mrhahn3000/react-redux-typescript-webpack.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20react-redux-typescript-webpack!%20https://github.com/mrhahn3000/react-redux-typescript-webpack%20%F0%9F%91%8D)
@@ -16,13 +17,14 @@ This should be my personal basic scaffolding template for getting started with a
 - Redux
 - SaSS (ScSS)
 - Hot Module Reloading
+- [Hocus-Pocus](https://github.com/bkzl/hocus-pocus) stylesheets
 
 ## Getting Started
-1. Clone the Repo
+1. Clone the Repo  
 `git clone https://github.com/mrhahn3000/react-redux-typescript-webpack`
-2. Install Dependencies
+2. Install Dependencies  
 From the root of the project directory, run `yarn`.
-3. Start the Development Server
+3. Start the Development Server  
 Run `yarn dev` then browse http://localhost:1337 to see your running app.
 
 ## File Structure
@@ -57,6 +59,7 @@ Note that the test are not compiled by TypeScript, that way there is no code dup
   <img src="https://www.netlify.com/img/deploy/button.svg" title="Deploy to Netlify">
 </a>
 
+[Here](https://react-redux-typescript-webpack.netlify.com) you can watch the deployed version of the master branch.  
 The deployment is automated completely. After the install script, the deploy script will run on the server in order to compile the bundle and prepare the build folder for rendering.
 
 ## Scripts
@@ -72,18 +75,16 @@ The deployment is automated completely. After the install script, the deploy scr
   - Start the dev server
 - `yarn deploy`
   - Create a production bundle for deployment
- 
-## Contributing
-See here for our [contribution guide](https://github.com/mrhahn3000/react-redux-typescript-webpack/blob/master/CONTRIBUTE.md).
   
 ## License
-See here for the [license](https://github.com/mrhahn3000/react-redux-typescript-webpack/blob/master/LICENSE).
+See here for details [![npm](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/mrhahn3000/react-redux-typescript-webpack/blob/master/LICENSE)
+
+ [license](https://github.com/mrhahn3000/react-redux-typescript-webpack/blob/master/LICENSE).
   
 ## Roadmap
 ### v1.0.1
-
-- [X] Add CI
-- [X] Add react router 
-- [ ] Introduce an async redux workflow
-- [ ] Standardize the tslint configuration
-- [ ] Add more reusable modules
+[X]  Add CI  
+[X]  Add react router   
+[ ]  Introduce an async redux workflow  
+[ ]  Standardize the tslint configuration  
+[ ]  Add more reusable modules  
