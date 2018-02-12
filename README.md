@@ -3,21 +3,19 @@ If you're interested in helping to support and grow this library, please let us 
 # React Redux TypeScript Template
 This should be my personal basic scaffolding template for getting started with a modern react-redux application. However, I definitely want to share my efforts with the community!
 
-[![Build Status](https://travis-ci.org/mrhahn3000/react-redux-typescript-webpack.svg?style=flat-square&branch=master)](https://travis-ci.org/mrhahn3000/react-redux-typescript-webpack)
-[![Version](https://img.shields.io/github/package-json/v/badges/shields.svg?style=flat-square)](https://github.com/mrhahn3000/react-redux-typescript-webpack/blob/master/package.json)
+[![Build Status](https://img.shields.io/travis/mrhahn3000/react-redux-typescript-webpack/master.svg?style=flat-square)](https://travis-ci.org/mrhahn3000/react-redux-typescript-webpack)
 [![Star on Github](https://img.shields.io/github/stars/mrhahn3000/react-redux-typescript-webpack.svg?style=social)](https://github.com/mrhahn3000/react-redux-typescript-webpack/stargazers)
 [![Watch on Github](https://img.shields.io/github/watchers/mrhahn3000/react-redux-typescript-webpack.svg?style=social)](https://github.com/mrhahn3000/react-redux-typescript-webpack/watchers)
 [![Tweet](https://img.shields.io/twitter/url/https/github.com/mrhahn3000/react-redux-typescript-webpack.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20react-redux-typescript-webpack!%20https://github.com/mrhahn3000/react-redux-typescript-webpack%20%F0%9F%91%8D)
 
 ## Main Features
-- Statically Typed
-- TypeScript
-- Webpack 3
-- React
-- Redux
-- SaSS (ScSS)
-- Hot Module Reloading
-- [Hocus-Pocus](https://github.com/bkzl/hocus-pocus) stylesheets
+- [TypeScript](https://github.com/Microsoft/TypeScript)
+- [Webpack 3](https://github.com/webpack/webpack)
+- [React](https://github.com/facebook/react)
+- [Redux](https://github.com/reactjs/redux)
+- [Sass](https://github.com/sass/sass)
+- [Hot Module Reloading](https://github.com/gaearon/react-hot-loader)
+- [Hocus-Pocus Stylesheets](https://github.com/bkzl/hocus-pocus)
 
 ## Getting Started
 1. Clone the Repo  
@@ -77,14 +75,12 @@ The deployment is automated completely. After the install script, the deploy scr
   - Create a production bundle for deployment
   
 ## License
-See here for details [![npm](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/mrhahn3000/react-redux-typescript-webpack/blob/master/LICENSE)
-
- [license](https://github.com/mrhahn3000/react-redux-typescript-webpack/blob/master/LICENSE).
+Look here for more details: [![npm](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/mrhahn3000/react-redux-typescript-webpack/blob/master/LICENSE).
   
 ## Roadmap
 ### v1.0.1
-[X]  Add CI  
-[X]  Add react router   
-[ ]  Introduce an async redux workflow  
-[ ]  Standardize the tslint configuration  
-[ ]  Add more reusable modules  
+-[X]  Add CI  
+-[X]  Add react router   
+-[ ]  Introduce an async redux workflow  
+-[ ]  Standardize the tslint configuration  
+-[ ]  Add more reusable modules  
