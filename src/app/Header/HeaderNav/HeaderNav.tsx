@@ -1,18 +1,12 @@
 import React from 'react'
-import {Link} from '../../Common'
-import {Button} from '../../Common'
+import {NavLink} from 'react-router-dom'
 
 const HeaderNav = () => {
     return (
         <nav>
-            <br/>
-            <Link href='https://www.google.com'>Nav 1</Link>
-            <br/>
-            <Link href='https://www.google.com'>Nav 2</Link>
-            <br/>
-            <Link href='https://www.google.com'>Nav 3</Link>
-            <br/>
-            <Button>Click me</Button>
+            <NavLink to="/" exact activeClassName="active">Page 1</NavLink>
+            <NavLink to="/page2" activeClassName="active">Page 2</NavLink>
+            <NavLink to="/page3" activeClassName="active">Page 3</NavLink>
         </nav>
     );
 };

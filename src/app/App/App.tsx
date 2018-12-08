@@ -28,9 +28,11 @@ const App = () => (
     <Provider store={store}>
         <ConnectedRouter history={history}>
             <div className='container'>
-                <Route exact path="/" component={Header}/>
-                <Route path="/page" component={Page}/>
-                <Route path="/footer" component={Footer}/>
+                <Header/>
+                <Route exact path="/" component={Page}/>
+                <Route path="/page2" component={Page}/>
+                <Route path="/page3" component={Page}/>
+                <Footer/>
             </div>
         </ConnectedRouter>
     </Provider>

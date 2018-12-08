@@ -3,7 +3,7 @@ import HeaderNav from './HeaderNav/HeaderNav'
 
 const Header = () => {
     return (
-        <header>
+        <header className='header'>
             <h1>Header title</h1>
 
             <HeaderNav/>
