@@ -65,8 +65,6 @@ The deployment is automated completely. After the install script, the deploy scr
   - Install the package dependencies via yarn (recommended)
 - `yarn build`
   - Build the project
-- `yarn sass`
-  - transpile all *.scss files (only needed for sane check)
 - `yarn test`
   - Run the test suite
 - `yarn dev`
@@ -79,8 +77,8 @@ Look here for more details: [![npm](https://img.shields.io/npm/l/express.svg?sty
   
 ## Roadmap
 ### v1.0.1
--[X]  Add CI  
--[X]  Add react router   
--[ ]  Introduce an async redux workflow  
--[ ]  Standardize the tslint configuration  
--[ ]  Add more reusable modules  
+* [X] Add CI
+* [X] Add react router
+* [ ] Introduce an async redux workflow
+* [ ] Standardize the tslint configuration
+* [ ] Add more reusable modules
